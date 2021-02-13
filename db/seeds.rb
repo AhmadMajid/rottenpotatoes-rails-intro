@@ -6,16 +6,25 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-movies = [{:title => 'Aladdin', :rating => 'G', :release_date => '25-Nov-1992'},
-    	  {:title => 'The Terminator', :rating => 'R', :release_date => '26-Oct-1984'},
-    	  {:title => 'When Harry Met Sally', :rating => 'R', :release_date => '21-Jul-1989'},
-      	  {:title => 'The Help', :rating => 'PG-13', :release_date => '10-Aug-2011'},
-      	  {:title => 'Chocolat', :rating => 'PG-13', :release_date => '5-Jan-2001'},
-      	  {:title => 'Amelie', :rating => 'R', :release_date => '25-Apr-2001'},
-      	  {:title => '2001: A Space Odyssey', :rating => 'G', :release_date => '6-Apr-1968'},
-      	  {:title => 'The Incredibles', :rating => 'PG', :release_date => '5-Nov-2004'},
-      	  {:title => 'Raiders of the Lost Ark', :rating => 'PG', :release_date => '12-Jun-1981'},
-      	  {:title => 'Chicken Run', :rating => 'G', :release_date => '21-Jun-2000'},
+movies = [{:title => 'have you heard sakamoto', :rating => 'comedy'},
+    	  {:title => 'grand blue', :rating => 'comedy'},
+    	  {:title => 'evangelion', :rating => 'everyoe is sad :('},
+      	  {:title => 'log horizon', :rating => 'issekai'},
+      	  {:title => 'nichijou', :rating => 'comedy'},
+      	  {:title => 'rascal does not dream bunny senpai', :rating => 'comedy/romance'},
+      	  {:title => 'I have no friends', :rating => 'comedy/romance'},
+      	  {:title => 'mai hime', :rating => 'action/comedy'},
+      	  {:title => 'another', :rating => 'mystery/thriller'},
+      	  {:title => 'dr Stone', :rating => 'action/shonen'},
+          {:title => 'cells at work!', :rating => 'comedy'},
+          {:title => 'devil is a part-timer', :rating => 'comedy'},
+          {:title => 'konosuba', :rating => 'issekai/comedy'},
+          {:title => 'whisker away', :rating => ''},
+          {:title => 'whisper of the heart', :rating => ''},
+          {:title => 'the cat returns', :rating => ''},
+          {:title => 'evangelion films', :rating => ''},
+          {:title => 'konosuba', :rating => ''},
+          {:title => 'paprika', :rating => ''},
   	 ]
 
 movies.each do |movie|
