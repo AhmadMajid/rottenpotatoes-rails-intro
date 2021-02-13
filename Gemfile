@@ -14,7 +14,7 @@ gem 'jquery-rails'
 
 gem 'ransack'
 
-
+gem 'pg'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
