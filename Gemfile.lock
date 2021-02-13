@@ -239,7 +239,7 @@ DEPENDENCIES
   byebug
   guard-rspec
   jquery-rails
-  pg (~> 0.21)
+  pg
   rails
   rails_12factor
   ransack
